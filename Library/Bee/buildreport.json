@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 26006183654.8,"dur": 3423400.7, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 26006241396.3,"dur": 372513.6, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 26006731221.5,"dur": 2809642.1, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "12/14/2022 17:02:55",
+"meta_command_line": "E:\\Unity\\2021.3.8f1c1\\Editor\\Unity.exe -projectpath F:/_Woker/Unroll_Ball_v1.4 -useHub -hubIPC -cloudEnvironment production -hubSessionId ffc92df0-7b53-11ed-839e-6d3c70a8e31b -accessToken _73arD915lWrbqCtxs5_6E-b5dJdxVNNa8I8aeyD2XQ01ef",
+"meta_command_line_args": "E:\\Unity\\2021.3.8f1c1\\Editor\\Unity.exe -projectpath F:/_Woker/Unroll_Ball_v1.4 -useHub -hubIPC -cloudEnvironment production -hubSessionId ffc92df0-7b53-11ed-839e-6d3c70a8e31b -accessToken _73arD915lWrbqCtxs5_6E-b5dJdxVNNa8I8aeyD2XQ01ef",
+"meta_user_name": "Administrator",
+"meta_os_version": "Microsoft Windows NT 10.0.19041.0",
+"meta_cpu_count": "6"
+}
